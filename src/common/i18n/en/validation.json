@@ -1,0 +1,9 @@
+{
+  "EMAIL_NOT_FORMATTED": " email not formatted correctly {value}",
+  "NAME": " name must be less than 30 char or more than 2 charactr",
+  "STR": "must be string {value}:{property} and required",
+  "PASSWORD":"PASSWORD must be less than 30 char or more than 8 charactr",
+  "PHONE": "phone number must be 11 digit",
+  "RESETCODE": "reset code must be 6 digit",
+  "MONGOID":"id must be mongo id"
+}

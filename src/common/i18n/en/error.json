@@ -1,0 +1,6 @@
+{
+  "HELLO": "Hello",
+  "NOT_FOUND_ONE": "Not Found User in  Database {id}",
+  "NOT_FOUND": "Not Found Users in  Database ",
+  "DUPLICATE_DB": "username or email are exists in database"
+}
