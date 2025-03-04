@@ -129,6 +129,21 @@ pnpm run start:dev
      -p 3000:3000 \
      order
    ```
+- **OR Run API From My Docker Hub**:
+   ```bash
+   docker run -d \
+     -e PORT=3000 \
+     -e MONGO_URI="your_mongodb_uri" \
+     -e JWT_SECRET="your_jwt_secret" \
+     -e JWT_EXPIRES_IN=3600 \
+     -e MAIL_HOST='smtp.ethereal.email' \
+     -e MAIL_USER='autumn.kohler90@ethereal.email' \
+     -e MAIL_PASSWORD="s5wZHwNG4gePu7cRqf" \
+     -e MAIL_PORT=587 \
+     -p 3000:3000 \
+     order-api \
+     diaaqassem1/order-api:v1.4
+   ```
 
 ---
 
